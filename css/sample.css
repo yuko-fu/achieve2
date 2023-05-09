@@ -7,13 +7,6 @@ body {
   text-align: center;
 }
 
-.container {
-  width: auto;
-  min-height: 100%;
-  margin: 0 auto;
-  position: relative;  
-}
-
 .clearfix::after {
   content: "";
   display: block;
@@ -37,7 +30,7 @@ header {
 }
 
 header ul {
-  
+  margin-left: 0 ;
 }
 
 header ul a {
@@ -53,7 +46,6 @@ header li {
 
 .left {
   float: left;
-  padding-left: 0;
 }
 
 
@@ -61,6 +53,7 @@ header li {
   float: right;
   height: 20px;
 }
+
 .right {
   float: left;
 }
