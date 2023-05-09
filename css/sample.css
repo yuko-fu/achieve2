@@ -85,17 +85,23 @@ header li {
 }
 
 .function-images {
-  margin: auto;
+  margin:  auto;
   height: 50%;
-  width: 50%;
+  width: 480px;
 }
 
 
 .function-image {
   float: left;
   height: auto;
-  padding-left: 20px;
-  margin: 20px;
+  width: 100px;
+  padding: 10px;
+}
+
+.function-image img {
+  width: 60px;
+  height: 70px;
+  padding-top: 20px;
 }
 /* ここまでがfunction部分の実装 */
 
