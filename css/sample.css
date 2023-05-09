@@ -30,7 +30,7 @@ header {
 }
 
 header ul {
-  margin-left: 0 ;
+  padding-left: 0px;
 }
 
 header ul a {
